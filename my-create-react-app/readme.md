@@ -22,7 +22,26 @@
   ]
 }
 ```
+### yarn 
+ - 速度快
+ - 支持workspace
+
+yarn install 作用
+  - 安装lerna和他的依赖
+  - 在根目录的node_modules里面创建软链接，链向哥哥packages中的个个包
+  
+yarn workspace vs lerna
+yarn 重点包管理，处理依赖，处理软链
+yarn install = lerna bootstrap
+lerna 重点在于多个项目管理和发布
+
+
 
 ## storybook 用户独立开发react，vue，angular的ui组件
 
 ## npm whoami 查看登录状况
+
+### 软连接(快捷方式？)
+
+
+### 硬连接

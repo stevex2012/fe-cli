@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/stevex2012/fe-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^9.0.0"
   }
 }
