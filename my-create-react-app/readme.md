@@ -6,7 +6,7 @@
   - multirupo 每个包对应一个项目
   - monorepo 一个项目仓库中管理多个包/模块
     - 优点：一套脚手架管理多个package
-    - 缺点：repo体积较大，个个package都是独立的，需要维护自己的dependencies，可能出现相同依赖，重复安装
+    - 缺点：repo体积较大，个个package都是独立的，需要维护自己的dependencies，可能出现相同依赖，重复安装（所以需要lerna/yarn包管理）
 
 ### yarn workspace
  - 允许我们用monorop的形式来管理项目
@@ -40,8 +40,17 @@ lerna 重点在于多个项目管理和发布
 ## storybook 用户独立开发react，vue，angular的ui组件
 
 ## npm whoami 查看登录状况
+# todolist
+### 硬连接/软连接(快捷方式(大致理解为快捷方式))
+链接是一种文件共享方式
+使用角度来看没有任何区别
+区别在底层原理上
+硬链接：与普通文件没有什么不同，inode都只想同一个文件在硬盘中的区块
+软链接：类似windows的快捷方式，保存了其代表文件的剧对路径，是另外一种文件，硬盘上有独立的区块，访问替换自身路径
 
-### 软连接(快捷方式？)
 
+## fs-extra;
 
-### 硬连接
+## 写一个log - npm包？
+
+## node子进程api学习

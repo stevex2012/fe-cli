@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "create-react-app":"node ./packages/create-react-app2/index.js"
+    "create-react-app2": "node --experimental-json-modules ./packages/create-react-app2/index.js"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
